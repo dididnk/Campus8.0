@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Import JQuery.js, Bootstrap and JS from CDN -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    
+        <!-- Font awesome 4 -->
+        <script src="https://kit.fontawesome.com/cabff833b6.js"></script>
+
+        <!-- Import JS and CSS localy -->
+        <link rel="stylesheet" href="index_style.css">
+        <title>League of school</title>
+    </head>
+    <body>
+        <!------------------------Header section-------------------------->
+        <header>
+            <section id="nav-bar container-fluid">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="#"><span class="logo">League of school</span></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ACCUEIL</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">A PROPOS</a>
+                        </li>
+                        <li class="dropdown show">
+                            <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                PROGRAMMES
+                            </a>                          
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink" style="color: black !important; background-color: rgba(0, 0, 0, 0.5);">
+                              <a class="dropdown-item" href="#licence">Licence</a>
+                              <a class="dropdown-item" href="#master">Master</a>
+                              <a class="dropdown-item" href="#doctorat">Doctorat</a>
+                              <a class="dropdown-item" href="#certification">Test de Certification</a>
+                              <a class="dropdown-item"><hr></a>
+                              <a class="dropdown-item" href="#evenement">Nos événements</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#actualite">actualité</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">TEAM WORK</a>
+                        </li>
+                    </ul>
+                    </div>
+                </nav>
+            </section>
+        </header>
+        <!------------------------About section-------------------------->
+        
+        <section id="about">
+            <div class="container text-center">
+                <h2 class="title">League of school</h2>
+                <p class="sous-title">Qui sommes-nous ?</p>
+                <div class="row"><div class="col-md-6 about-left">
+                        <img src="images/aboutImg.jpg" class="about-left-img">
+                    </div>
+                    <div class="col-md-6 about-right">
+                        <h4>League of school</h4>
+                        <p>
+                            Avec les cours à distance, nous avons remarqué une baisse de 15% du taux de présence
+                             et une baisse de près de 50% du taux de participation en classe. Nous voulons remédier
+                              à ça avec League of School, qui propose une solution complète de suivi des cours à distance.
+                               Nous voulons aussi engager les élèves grâce à un système d’expérience, de niveaux et de récompenses,
+                                ainsi que des évènements en présentiel ou à distance, tels que des tournois sur différents jeux.
+                        </p>
+                        <p>
+                            Notre école est en partenariat avec plusieures grandes entreprises dans le domaine de
+                             la nouvelle technologie et nos étudiants sont directement liées à ses entreprises qui
+                              sont ouvertes pour des stages et pour un éventuel contrat d’embauche, ce qui explique
+                               la place numéro 1 de l’école privée la plus populaire de la Gironde.
+                               En plus de diplôme, nos étudiants ressortent avec une certification aux choix.
+                        </p>
+                        <p>
+                            Nos professeurs sont tous des experts en la matière avec un minimum de 10 ans 
+                            d’expérience pour assurer une formation de qualité à la jeunesse de demain.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!------------------------programmes section-------------------------->
+
+        <section id="programmes">
+            <div class="container text-center">
+                <h2 class="title">League of school</h2>
+                <p class="sous-title">Programmes</p>
+                <div class="row programmes-zone">
+
+                    <!-- Contenue formation Licence -->
+                    <div id="licence" class="col-md-4 programmes">
+                        <div class="row programmes-head">
+                            <img src="images/contenuImg1.jpg" id="programmes-img" onmouseover="this.src='images/contenuImg11.jpg'" onmouseout="this.src='images/contenuImg1.jpg'">
+                        </div>
+                        <div class="row programmes-body">                            
+                            <ul>
+                                <h4>Licence</h4>
+                                <li><i class="far fa-check-circle"></i> DAGPI</li>
+                                <li><i class="far fa-check-circle"></i> DAWIN</li>
+                                <li><i class="far fa-check-circle"></i> BIG DATA</li>
+                            </ul>
+                        </div>
+                        <div class="row programmes-footer"> 
+                            <a class="btn btn-primary programmes-footer-btn" href="#licence" role="button">Découvrir</a>                           
+                        </div>
+                    </div>
+
+                    <!-- Contenue formation Master -->
+                    <div id="master" class="col-md-4 programmes">
+                        <div class="row programmes-head">
+                            <img src="images/contenuImg2.jpg" id="programmes-img" onmouseover="this.src='images/contenuImg22.jpg'" onmouseout="this.src='images/contenuImg2.jpg'">
+                        </div>
+                        <div class="row programmes-body">                            
+                            <ul>
+                                <h4>Master</h4>
+                                <li><i class="far fa-check-circle"></i> Génie logicielle</li>
+                                <li><i class="far fa-check-circle"></i> Expert en S.I</li>
+                                <li><i class="far fa-check-circle"></i> I.A</li>
+                            </ul>
+                        </div>
+                        <div class="row programmes-footer"> 
+                            <a class="btn btn-primary programmes-footer-btn" href="#master" role="button">Découvrir</a>                           
+                        </div>
+                    </div>
+
+                    <!-- Contenue formation Doctorat -->
+                    <div id="doctorat" class="col-md-4 programmes">
+                        <div class="row programmes-head">
+                            <img src="images/contenuImg3.jpg" id="programmes-img" onmouseover="this.src='images/contenuImg33.jpg'" onmouseout="this.src='images/contenuImg3.jpg'">
+                        </div>
+                        <div class="row programmes-body">                            
+                            <ul>
+                                <h4>Doctorat</h4>
+                                <li><i class="far fa-check-circle"></i> Algorithmique</li>
+                                <li><i class="far fa-check-circle"></i> Reseaux & S.I</li>
+                                <li><i class="far fa-check-circle"></i> cybersécurité</li>
+                            </ul>
+                        </div>
+                        <div class="row programmes-footer"> 
+                            <a class="btn btn-primary programmes-footer-btn" href="#doctorat" role="button">Découvrir</a>                           
+                        </div>
+                    </div>                                 
+                </div>
+                
+                <div class="row row2 programmes-zone">
+                    <!-- Contenue formation Certification -->
+                    <div id="certification" class="col-md-5 programmes">
+                        <div class="row programmes-head">
+                            <img src="images/contenuImg4.jpg" id="programmes-img" onmouseover="this.src='images/contenuImg44.jpg'" onmouseout="this.src='images/contenuImg4.jpg'">
+                        </div>
+                        <div class="row programmes-body">                            
+                            <ul>
+                                <h4>Certification</h4>
+                                <li><i class="far fa-check-circle"></i> AWS</li>
+                                <li><i class="far fa-check-circle"></i> CISCO</li>
+                                <li><i class="far fa-check-circle"></i> AGILE & SCRUM</li>
+                            </ul>
+                        </div>
+                        <div class="row programmes-footer"> 
+                            <a class="btn btn-primary programmes-footer-btn" href="#certification" role="button">Découvrir</a>                           
+                        </div>
+                    </div>
+
+                    <!-- Contenue formation événements -->
+                    <div id="evenement" class="col-md-5 programmes">
+                        <div class="row programmes-head">
+                            <img src="images/contenuImg5.jpg" id="programmes-img" onmouseover="this.src='images/contenuImg55.jpg'" onmouseout="this.src='images/contenuImg5.jpg'">
+                        </div>
+                        <div class="row programmes-body">                            
+                            <ul>
+                                <h4>événements</h4>
+                                <li><i class="far fa-check-circle"></i> Juste un verre</li>
+                                <li><i class="far fa-check-circle"></i> Soirée Gaming</li>
+                                <li><i class="far fa-check-circle"></i> Code with me</li>
+                            </ul>
+                        </div>
+                        <div class="row programmes-footer"> 
+                            <a class="btn btn-primary programmes-footer-btn" href="#evenement" role="button">Découvrir</a>                           
+                        </div>
+                    </div>
+                </div>     
+            </div>
+        </section>
+        <!------------------------cours section-------------------------->
+            
+        <section id="cours">
+            <div class="cours-us">
+                <div class="container text-center">
+                    <h2 class="title">League of school</h2>
+                    <p class="sous-title">Ce que vous devez savoir</p>
+                    <div class="row">
+                        <div class="col-md-7 about-us">
+                            <p class="about-title">Avantages de la formation</p>
+                            <ul>
+                                <li><span class="title2">Diplôme International </span>: Nos diplômes sont certifiés RNCP. <i class="fas fa-user-graduate"></i></li>
+                                <li><span class="title2">en ligne </span>: La formation est accessible 24h/24.<i class="fas fa-globe-africa"></i></li>
+                                <li><span class="title2">Job </span>:  98,9% de nos étudiants trouvent de l'emploi grâce à l'école.<i class="fas fa-laptop-code"></i></li>
+                                <li><span class="title2">Compétition Gaming </span>:  Nos éudiants voyagent chaque année pour participer à la compétition internationale de Gaming aux USA. <i class="fas fa-laptop-code"></i></li>
+                                <li><span class="title2">encadrement </span>: On est là pour vous accompagner <i class="fas fa-people-carry"></i>.</li><li><span class="title2">en plus</span>: La formation est complètement gratuite.<i class="fas fa-smile-wink"></i>.</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="images/bg2.jpg" class="cours-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!------------------------temoignage section-------------------------->
+        
+        <section id="actualite">
+            <div class="container text-center">
+                <h2 class="title">League of school</h2>
+                <p class="sous-title">inspirez-vous des autres</p>
+                <div class="row offset-1">
+                    <div class="col-md-6">
+                        <img src="images/theme1.jpg" class="temoignage-theme">
+                    </div>
+                    <div class="col-md-6 temoignage temoignage1">
+                        <p class="temoignage-txt">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente numquam natus deleniti, facilis itaque accusamus, error possimus labore, debitis beatae perferendis maiores repellendus ipsum distinctio. Hic, earum ipsa. Doloremque, ad.
+
+                        </p>
+                        <img src="images/user2.jpeg">
+                        <p class="user-details"><b>Eric Zemmour</b><br>Un étudiant</p>
+                    </div>
+                </div>
+                <div class="row">                    
+                    <div class="col-md-6 temoignage temoignage2">
+                        <p class="temoignage-txt">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi suscipit corrupti, ex totam ut commodi numquam aliquam ipsa vitae quam atque ipsam praesentium, veniam saepe nemo eos vel quas est velit harum. Dolore quam a optio eligendi nam quibusdam ex nulla deleniti dolor vitae non, sapiente tenetur ea, velit voluptate!
+                        </p>
+                        <img src="images/user2.jpeg">
+                        <p class="user-details"><b>Marine Le Pen</b><br>Une étudiante</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/theme2.jpg" class="temoignage-theme">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!------------------------Contact section-------------------------->
+        <!------------------------Footer section-------------------------->
+
+        <footer>
+            <section id="footer1">
+                <img src="images/zigzag2.png" class="footer-img">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 footer-box">
+                            <span class="logo">League of school</span>
+                            <p class="msg">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem doloremque quidem ratione modi libero perspiciatis pariatur necessitatibus optio dolores magnam minima doloribus est eos suscipit cupiditate magni, similique, perferendis sequi inventore quis saepe voluptate facilis. Saepe, velit! Cupiditate architecto eum, consequuntur, debitis rem ullam velit aut minima, maxime sunt distinctio.
+                            </p>
+                        </div>
+                        <div class="col-md-4 footer-box">
+                            <h5><b>NOUS CONTACTER</b></h5>
+                            <p><i class="fa fa-phone"></i><span class="txt">(+33) 07.66.79.45.58</span></p>
+                            <a href="mailto:ngbamedistingue@yahoo.com"></a><p><i class="fa fa-envelope-o"></i><span class="txt">ngbamedistingue@yahoo.com</span></p></a>
+                            <p><i class="fa fa-map-marker"></i><span class="txt">45 Avenue Aristide Briand,Mérignac</span></p>
+                            <a href="https://dididnk.github.io/Portfolio/#" target="_blanc"><p><i class="fab fa-github"></i><span class="txt">Portfolio</span></p></a>
+                        </div>
+                        <div class="col-md-2 footer-box">
+                            <h5><b>RACOURCI</b></h5>
+                            <a href="#home"><p><i class="fa fa-home"></i><span class="txt">Accueil</span></p></a>
+                            <a href="#about"><p><i class="fas fa-chalkboard-teacher"></i><span class="txt">à propos</span></p></a>
+                            <a href="#programmes"><p><i class="fas fa-sync-alt"></i><span class="txt">référence</span></p></a>
+                            <a href="#temoignage"><p><i class="fas fa-running"></i><span class="txt">témoignage</span></p></a>
+                        </div>
+                        <div class="col-md-2 footer-box">
+                            <h5><b>SUIVEZ-NOUS</b></h5>
+                            <p1 style="font-size: 16px; font-weight: 500; color: grey;">Suivre l'école sur les réseaux</p1>
+                            <div class="social-icons">
+                                <a href="#" target="_blanc"><img src="images/facebook-icon.png"></a>
+                                <a href="#" target="_blanc"><img src="images/instagram-icon.png"></a>
+                                <a href="#" target="_blanc"><img src="images/snapchat-icon.png"></a>
+                                <a hrehref="#" target="_blanc"><img src="images/linkedin-icon.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <p class="copyright">DNK |  <span class="far fa-copyright"> 2021 Tous droits réservés.</span></p>
+                </div>
+            </section>
+        </footer>
+    </body>
+</html>
