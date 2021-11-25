@@ -194,7 +194,7 @@ header
 }
 .programmes-body ul li i
 {
-    color: rgb(0, 157, 224);;
+    color: rgb(0, 157, 224);
 }
 .programmes-body h4
 {
@@ -216,6 +216,7 @@ header
 .programmes-footer-btn:hover
 {
     background: red;
+    border-color: white;
 }
 #certification
 {
@@ -273,37 +274,26 @@ header
     border-radius: 15%;
 }
 /*----------------------------------Cours section--------------------------------------*/
-#temoignage
+#actualite 
 {
-    margin: 100px 0;
+    background: url("images/bg3.jpg") center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
-.temoignage-theme
+#actualite .actualite-us .container .row .actualite-img
 {
     width: 100%;
-    height: 80vh;
+    height: 70vh;
+    margin-bottom: 4% !important;
 }
-.temoignage
+#actualite .actualite-us .container .row .actualite-txt
 {
-    border-left: 4px solid #000;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    width: 100%;
+    height: 70vh;
+    margin-bottom: 4% !important;
 }
-.temoignage-txt
-{
-    text-align: justify;
-}
-.temoignage img
-{
-    border-radius: 50%;
-    height: 60px;
-    width: 60px;
-    margin: 0 10px;
-}
-.user-details
-{
-    display: inline-block;
-    font-size: 12px;
-}
+
+
 
 /*----------------------------------Social-media section--------------------------------------*/
 #social-media
@@ -404,7 +394,16 @@ hr
 {
     background-image: linear-gradient(to right, rgb(0, 157, 224), rgb(7, 7, 199));
 }
-.copyright
+.copyright,
+.copyright a
 {
     color: grey;
+}
+.copyright a:hover
+{
+    color: rgb(0, 157, 224) !important;
+}
+.copyright a
+{
+    text-decoration: none;
 }
