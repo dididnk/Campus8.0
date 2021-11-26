@@ -218,6 +218,20 @@ header
     background: red;
     border-color: white;
 }
+.programmes-footer-btn-2
+{
+    border-radius: 0 0 18px 0 !important;
+    color: black;
+    text-transform: uppercase;
+    width: 50%;
+    margin-right: 0!important;
+    background-color: green;
+}
+.programmes-footer-btn-2:hover
+{
+    background: red;
+    border-color: white;
+}
 #certification
 {
     margin: 20px !important;
